@@ -6,10 +6,10 @@ const slides = [
     `
 <div class="bg-blue-600 flex flex-col h-screen">
     <div class="flex-grow flex flex-col items-center justify-center px-8">
-        <h2 class="text-4xl font-bold text-white mb-16 text-center" style="font-size: 2.5rem;">NH투자증권 임원 AI 워크샵</h2>
+        <h2 class="text-4xl font-bold text-white mb-16 text-center" style="font-size: 2.5rem;">AI</h2>
         <div class="text-center mb-16">
             <h1 class="text-6xl font-bold text-white mb-8" style="font-size: 3rem;">실습 프롬프트</h1>
-            <p class="text-2xl text-white" style="font-size: 1.5rem;">NH투자증권 임원 AI 워크샵을 위한 실습 프롬프트입니다.</p>
+            <p class="text-2xl text-white" style="font-size: 1.5rem;">AI 워크샵을 위한 실습 프롬프트입니다.</p>
         </div>
     </div>
 </div>
