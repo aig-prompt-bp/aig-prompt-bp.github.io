@@ -24,11 +24,18 @@ const slides = [
                     <div class="flex items-stretch">
                         <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
                         <div class="flex-grow">
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 문서는 NH투자증권에서 발행한 애널리스트 보고서 입니다. 첨부 문서를 기반으로 '특정 섹터'를 도출하고 주요 트렌드를 분석합니다. 이 과정에서 핵심 키워드, 주요 이슈, 섹터 전망, 해당 섹터의 기회와 위협 요소를 요약해서 알려주세요. #한국어로 답변하세요.</p>
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 문서는 NH투자증권에서 발행한 애널리스트 보고서 입니다.<br>
+첨부 문서를 기반으로 '특정 섹터'를 도출하고 주요 트렌드를 분석합니다.<br>
+이 과정에서 핵심 키워드, 주요 이슈, 섹터 전망, 해당 섹터의 기회와 위협 요소를 요약해서 알려주세요.<br><br>
+#한국어로 답변하세요.</p>
                         </div>
                         <div class="flex-shrink-0 ml-4 h-full">
                             <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="첨부한 문서는 NH투자증권에서 발행한 애널리스트 보고서 입니다. 첨부 문서를 기반으로 '특정 섹터'를 도출하고 주요 트렌드를 분석합니다. 이 과정에서 핵심 키워드, 주요 이슈, 섹터 전망, 해당 섹터의 기회와 위협 요소를 요약해서 알려주세요. #한국어로 답변하세요.">
+                                    data-copy-text="첨부한 문서는 NH투자증권에서 발행한 애널리스트 보고서 입니다.
+첨부 문서를 기반으로 '특정 섹터'를 도출하고 주요 트렌드를 분석합니다.
+이 과정에서 핵심 키워드, 주요 이슈, 섹터 전망, 해당 섹터의 기회와 위협 요소를 요약해서 알려주세요.
+
+#한국어로 답변하세요.">
                                 <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                 복사하기
                             </button>
@@ -37,11 +44,13 @@ const slides = [
                     <div class="flex items-stretch">
                         <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
                         <div class="flex-grow">
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">분석한 '특정 섹터'의 향후 1년간 예상되는 트렌드를 외부 데이터를 참고하여 예측하세요. 첨부한 문서에서 언급된 주요 이슈들의 실제 반영 가능성 및 그 외의 인사이트 내용을 더해주세요.</p>
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">분석한 '특정 섹터'의 향후 1년간 예상되는 트렌드를 외부 데이터를 참고하여 예측하세요.<br>
+첨부한 문서에서 언급된 주요 이슈들의 실제 반영 가능성 및 그 외의 인사이트 내용을 더해주세요.</p>
                         </div>
                         <div class="flex-shrink-0 ml-4 h-full">
                             <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="분석한 '특정 섹터'의 향후 1년간 예상되는 트렌드를 외부 데이터를 참고하여 예측하세요. 첨부한 문서에서 언급된 주요 이슈들의 실제 반영 가능성 및 그 외의 인사이트 내용을 더해주세요.">
+                                    data-copy-text="분석한 '특정 섹터'의 향후 1년간 예상되는 트렌드를 외부 데이터를 참고하여 예측하세요.
+첨부한 문서에서 언급된 주요 이슈들의 실제 반영 가능성 및 그 외의 인사이트 내용을 더해주세요.">
                                 <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                 복사하기
                             </button>
@@ -68,11 +77,17 @@ const slides = [
                     <div class="flex items-stretch">
                         <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
                         <div class="flex-grow">
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 각각 자사 고객 데이터와 판매 상품 데이터입니다. 이를 바탕으로 주요 고객 세그먼트를 나누고, 각 세그먼트의 특징을 분석하고 반환합니다. 구분한 세그먼트에 관해 각 인구통계 특성과 구매 성향을 중심으로 구체적인 설명을 포함하세요. #한국어로 답변하세요.</p>
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 각각 자사 고객 데이터와 판매 상품 데이터입니다.<br>
+이를 바탕으로 주요 고객 세그먼트를 나누고, 각 세그먼트의 특징을 분석하고 반환합니다.<br>
+구분한 세그먼트에 관해 각 인구통계 특성과 구매 성향을 중심으로 구체적인 설명을 포함하세요.<br><br>
+#한국어로 답변하세요.</p>
                         </div>
                         <div class="flex-shrink-0 ml-4 h-full">
                             <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="첨부한 파일은 각각 자사 고객 데이터와 판매 상품 데이터입니다. 이를 바탕으로 주요 고객 세그먼트를 나누고, 각 세그먼트의 특징을 분석하고 반환합니다. 구분한 세그먼트에 관해 각 인구통계 특성과 구매 성향을 중심으로 구체적인 설명을 포함하세요. #한국어로 답변하세요.">
+                                    data-copy-text="첨부한 파일은 각각 자사 고객 데이터와 판매 상품 데이터입니다.
+이를 바탕으로 주요 고객 세그먼트를 나누고, 각 세그먼트의 특징을 분석하고 반환합니다.
+구분한 세그먼트에 관해 각 인구통계 특성과 구매 성향을 중심으로 구체적인 설명을 포함하세요.
+#��국어로 답변하세요.">
                                 <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                 복사하기
                             </button>
@@ -124,7 +139,8 @@ const slides = [
                 <div class="space-y-6">
                     <div class="flex items-stretch">
                         <div class="flex-grow">
-                            <p class="mb-4 text-lg" style="font-size: 1.25rem;">증권회사의 투자상품 고객 설명회 안내장 이미지를 생성하기 위한 프롬프트를 작성해 주세요. 이미지에는 행사 제목, 날짜, 시간, 장소 등의 정보가 포함되어야 하며, 전문적이면서도 친근한 분위기를 전달할 수 있도록 디자인 요소를 제안해 주세요</p>
+                            <p class="mb-4 text-lg" style="font-size: 1.25rem;">증권회사의 투자상품 고객 설명회 안내장 이미지를 생성하기 위한 프롬프트를 작성해 주세요.<br>
+이미지에는 행사 제목, 날짜, 시간, 장소 등의 정보가 포함되어야 하며, 전문적이면서도 친근한 분위기를 전달할 수 있도록 디자인 요소를 제안해 주세요<br></p>
                             <p class="mb-2 text-lg" style="font-size: 1.25rem;">다음의 지침을 따르세요.</p>
                             <ol class="list-decimal list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
                                 <li>프롬프트는 한글로 생성하되, 행사에 대한 정보는 영어로 생성하세요</li>
@@ -134,7 +150,8 @@ const slides = [
                         </div>
                         <div class="flex-shrink-0 ml-4 h-full">
                             <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="증권회사의 투자상품 고객 설명회 안내장 이미지를 생성하기 위한 프롬프트를 작성해 주세요. 이미지에는 행사 제목, 날짜, 시간, 장소 등의 정보가 포함되어야 하며, 전문적이면서도 친근한 분위기를 전달할 수 있도록 디자인 요소를 제안해 주세요
+                                    data-copy-text="증권회사의 투자상품 고객 설명회 안내장 이미지를 생성하기 위한 프롬프트를 작성해 주세요.
+이미지에는 행사 제목, 날짜, 시간, 장소 등의 정보가 포함되어야 하며, 전문적이면서도 친근한 분위기를 전달할 수 있도록 디자인 요소를 제안해 주세요
 
 다음의 지침을 따르세요.
 1. 프롬프트는 한글로 생성하되, 행사에 대한 정보는 영어로 생성하세요
@@ -164,11 +181,15 @@ const slides = [
                         <div class="flex items-stretch">
                             <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">웹 브라우징 기능을 사용하여 '[원하는 기업명]' 기업의 최신 정보를 수집하고, 해당 정보를 기반으로 기업이 가지고 있는 페인포인트, NH투자증권이 제안할 수 있는 가치, 솔루션을 도출하세요. #한국어로 답변하세요.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">웹 브라우징 기능을 사용하여 '[원하는 기업명]' 기업의 최신 정보를 수집하고,<br>
+해당 정보를 기반으로 기업이 가지고 있는 페인포인트, NH투자증권이 제안할 수 있는 가치, 솔루션을 도출하세요.<br><br>
+#한국어로 답변하세요.</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="웹 브라우징 기능을 사용하여 '[원하는 기업명]' 기업의 최신 정보를 수집하고, 해당 정보를 기반으로 기업이 가지고 있는 페인포인트, NH투자증권이 제안할 수 있는 가치, 솔루션을 도출하세요. #한국어로 답변하세요.">
+                                        data-copy-text="웹 브라우징 기능을 사용하여 '[원하는 기업명]' 기업의 최신 정보를 수집하고,
+해당 정보를 기반으로 기업이 가지고 있는 페인포인트, NH투자증권이 제안할 수 있는 가치, 솔루션을 도출하세요.
+#한국어로 답변하세요.">
                                     <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                     복사하기
                                 </button>
@@ -177,27 +198,32 @@ const slides = [
                         <div class="flex items-stretch">
                             <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">분석한 내용을 바탕으로, 해당 기업의 방문 목적을 설명하는 시나리오를 작성해주세요. 시나리오에는 기업의 현재 재무 상태, 투자 필요성, 그리고 NH투자증권이 제공할 수 있는 금융 솔루션과 가치 제안이 포함되어야 합니다.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">분석한 내용을 바탕으로, 해당 기업의 방문 목적을 설명하는 시나리오를 작성해주세요.<br>
+시나리오에는 기업의 현재 재무 상태, 투자 필요성, 그리고 NH투자증권이 제공할 수 있는 금융 솔루션과 가치 제안이 포함되어야 합니다.</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="분석한 내용을 바탕으로, 해당 기업의 방문 목적을 설명하는 시나리오를 작성해주세요. 시나리오에는 기업의 현재 재무 상태, 투자 필요성, 그리고 NH투자증권이 제공할 수 있는 금융 솔루션과 가치 제안이 포함되어야 합니다.">
-                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                복사하기
-                            </button>
+                                        data-copy-text="분석한 내용을 바탕으로, 해당 기업의 방문 목적을 설명하는 시나리오를 작성해주세요.
+시나리오에는 기업의 현재 재무 상태, 투자 필요성, 그리고 NH투자증권이 제공할 수 있는 금융 솔루션과 가치 제안이 포함되어야 합니다.">
+                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                    복사하기
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex items-stretch">
-                        <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">3</div>
-                        <div class="flex-grow">
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">해당 기업 방문시 상대기업의 예상질문 5개를 생성해주세요. 각 5개의 예상질문에 대해 답변하기 위해 해외사례(맥킨지 보고서)를 웹브라우징으로 검색한 다음 질문에 대한 답변을 생성해주세요.</p>
-                        </div>
-                        <div class="flex-shrink-0 ml-4 h-full">
-                            <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="해당 기업 방문시 상대기업의 예상질문 5개를 생성해주세요. 각 5개의 예상질문에 대해 답변하기 위해 해외사례(맥킨지 보고서)를 웹브라우징으로 검색한 다음 질문에 대한 답변을 생성해주세요.">
-                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                복사하기
-                            </button>
+                        <div class="flex items-stretch">
+                            <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">3</div>
+                            <div class="flex-grow">
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">해당 기업 방문시 상대기업의 예상질문 5개를 생성해주세요.<br>
+각 5개의 예상질문에 대해 답변하기 위해 해외사례(맥킨지 보고서)를 웹브라우징으로 검색한 다음 질문에 대한 답변을 생성해주세요.</p>
+                            </div>
+                            <div class="flex-shrink-0 ml-4 h-full">
+                                <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                        data-copy-text="해당 기업 방문시 상대기업의 예상질문 5개를 생성해주세요.
+각 5개의 예상질문에 대해 답변하기 위해 해외사례(맥킨지 보고서)를 웹브라우징으로 검색한 다음 질문에 대한 답변을 생성해주세요.">
+                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                    복사하기
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,14 +239,35 @@ const slides = [
             <div class="space-y-6 px-8">
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <div class="space-y-6">
-                        <div class="flex items-stretch">
+                        <div class="flex items-stretch mb-6">
+                            <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">24년 9월 기준, [반도체 산업]의 최근 시장의 주요 시황, 테마, 주도주, 증권상품을 검색한 다음 관련해서 주목해야할 최신 규제나 정책 변화도 함께 검색하세요. 아래 내용을 바탕으로 정보들을 분석해주세요. 특히, 특정 상품에 최신 규제와 정책 변화가 어떤 영향을 미치는지 상세히 분석해 주세요.</p>
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">[Step1에서 생성된 내용을 이곳에 붙여넣기해주세요.]</p>
+                                <div class="flex items-center mb-2">
+                                    <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center mr-2">
+                                        <img src="./images/perplexity.png" alt="Perplexity" class="w-6 h-6">
+                                    </div>
+                                    <span class="text-xl font-bold">Perplexity</span>
+                                </div>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">24년 9월 기준, [반도체 산업]의 최근 시장의 주요 시황, 테마, 주도주, 증권상품을 검색한 다음 관련해서 주목해야할 최신 규제나 정책 변화도 함께 검색하세요.</p>
+                                <img src="path_to_perplexity_screenshot.png" alt="Perplexity Screenshot" class="w-full mt-4">
+                            </div>
+                        </div>
+                        <div class="flex items-stretch">
+                            <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
+                            <div class="flex-grow">
+                                <div class="flex items-center mb-2">
+                                    <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center mr-2">
+                                        <img src="./images/chatgpt.png" alt="ChatGPT" class="w-6 h-6">
+                                    </div>
+                                    <span class="text-xl font-bold">ChatGPT</span>
+                                </div>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">아래 내용을 바탕으로 정보들을 분석해주세요. 특히, 특정 상품에 최신 규제와 정책 변화가 어떤 영향을 미치는지 상세히 분석해 주세요.</p>
+                                <p class="mb-2 text-lg italic" style="font-size: 1.25rem;">[Step1에서 생성된 내용을 이곳에 붙여넣기해주세요.]</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="24년 9월 기준, [반도체 산업]의 최근 시장의 주요 시황, 테마, 주도주, 증권상품을 검색한 다음 관련해서 주목해야할 최신 규제나 정책 변화도 함께 검색하세요. 아래 내용을 바탕으로 정보들을 분석해주세요. 특히, 특정 상품에 최신 규제와 정책 변화가 어떤 영향을 미치는지 상세히 분석해 주세요.
+                                        data-copy-text="24년 9월 기준, [반도체 산업]의 최근 시장의 주요 시황, 테마, 주도주, 증권상품을 검색한 다음 관련해서 주목해야할 최신 규제나 정책 변화도 함께 검색하세요.
+아래 내용을 바탕으로 정보들을 분석해주세요. 특히, 특정 상품에 최신 규제와 정책 변화가 어떤 영향을 미치는지 상세히 분석해 주세요.
     
     [Step1에서 생성된 내용을 이곳에 붙여넣기해주세요.]">
                                     <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
@@ -228,9 +275,6 @@ const slides = [
                                 </button>
                             </div>
                         </div>
-                    </div>
-                    <div class="mt-6 text-base">
-                        <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">Perplexity</p>
                     </div>
                 </div>
             </div>
@@ -247,11 +291,15 @@ const slides = [
                         <div class="flex items-stretch">
                             <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 NH투자증권에서 발행한 애널리스트 보고서입니다. 보고서를 읽고 최근 5년간 매출, 순이익 정보를 표로 정리해주세요. #한국어로 답변하세요.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 NH투자증권에서 발행한 애널리스트 보고서입니다.
+보고서를 읽고 최근 5년간 매출, 순이익 정보를 표로 정리해주세요.
+#한국어로 답변하세요.</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="첨부한 파일은 NH투자증권에서 발행한 애널리스트 보고서입니다. 보고서를 읽고 최근 5년간 매출, 순이익 정보를 표로 정리해주세요. #한국어로 답변하세요.">
+                                        data-copy-text="첨부한 파일은 NH투자증권에서 발행한 애널리스트 보고서입니다.
+보고서를 읽고 최근 5년간 매출, 순이익 정보를 표로 정리해주세요.
+#한국어로 답변하세요.">
                                     <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                     복사하기
                                 </button>
@@ -286,11 +334,13 @@ const slides = [
                         <div class="flex items-stretch">
                             <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">4</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용할 수 있는 예측기법을 5가지 생각한 후, 상황에 맞는 예측기법을 선택하세요. 현재 주가를 검색하고, 미래 가격을 예측해서 표로 정리해주세요.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용할 수 있는 예측기법을 5가지 생각한 후, 상황에 맞는 예측기법을 선택하세요.
+현재 주가를 검색하고, 미래 가격을 예측해서 표로 정리해주세요.</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="사용할 수 있는 예측기법을 5가지 생각한 후, 상황에 맞는 예측기법을 선택하세요. 현재 주가를 검색하고, 미래 가격을 예측해서 표로 정리해주세요.">
+                                        data-copy-text="사용할 수 있는 예측기법을 5가지 생각한 후, 상황에 맞는 예측기법을 선택하세요.
+현재 주가를 검색하고, 미래 가격을 예측해서 표로 정리해주세요.">
                                     <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                     복사하기
                                 </button>
@@ -315,7 +365,9 @@ const slides = [
                     <div class="space-y-6">
                         <div class="flex items-stretch">
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">아래는 고객이 신뢰하는 투자조언 유튜버의콘텐츠입니다. 제공된 영상을 요약하고, 유튜버의 투자 의견을 '추천', '관망', '비추천' 중 하나로 분류해 주세요. 또한 그 근거(타임스탬프 포함)를 상세히 정리해 주세요.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">아래는 고객이 신뢰하는 투자조언 유튜버의콘텐츠입니다.
+제공된 영상을 요약하고, 유튜버의 투자 의견을 '추천', '관망', '비추천' 중 하나로 분류해 주세요.
+또한 그 근거(타임스탬프 포함)를 상세히 정리해 주세요.</p>
                                 <p class="mb-2 text-lg" style="font-size: 1.25rem;">---</p>
                                 <p class="mb-2 text-lg" style="font-size: 1.25rem;">제목: [여기에 제목 입력]</p>
                                 <p class="mb-2 text-lg" style="font-size: 1.25rem;">내용: [여기에 영상 내용 입력]</p>
@@ -324,7 +376,9 @@ const slides = [
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="아래는 고객이 신뢰하는 투자조언 유튜버의콘텐츠입니다. 제공된 영상을 요약하고, 유튜버의 투자 의견을 '추천', '관망', '비추천' 중 하나로 분류해 주세요. 또한 그 근거(타임스탬프 포함)를 상세히 정리해 주세요.
+                                        data-copy-text="아래는 고객이 신뢰하는 투자조언 유튜버의콘텐츠입니다.
+제공된 영상을 요약하고, 유튜버의 투자 의견을 '추천', '관망', '비추천' 중 하나로 분류해 주세요.
+또한 그 근거(타임스탬프 포함)를 상세히 정리해 주세요.
     
     ---
     제목: [여기에 제목 입력]
@@ -338,7 +392,8 @@ const slides = [
                         </div>
                     </div>
                     <div class="mt-6 text-base">
-                        <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">코스닥 주식시황, 나스닥 주식시황, 미국 주식시황 등의 키워드로 유튜브에서 영상을 탐색해보세요. '스크립트 표시' 버튼을 누르면, 유튜브 영상을 텍스트로 추출할 수 있습니다.</p>
+                        <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">코스닥 주식시황, 나스닥 주식시황, 미국 주식시황 등의 키워드로 유튜브에서 영상을 탐색해보세요.
+'스크립트 표시' 버튼을 누르면, 유튜브 영상을 텍스트로 추출할 수 있습니다.</p>
                     </div>
                 </div>
             </div>
@@ -355,11 +410,17 @@ const slides = [
                         <div class="flex items-stretch">
                             <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 고배당 ETF의 최신 상품 정보, 고객투자성향 데이터입니다. 이 정보를 토대로 고배당 미국 ETF 시장 트렌드를 분석하고 고객의 투자 성향(공격형, 중립형, 보수형)에 맞는 맞춤형 제안 시나리오를 작성해 주세요. #한국어로 답변하세요.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 고배당 ETF의 최신 상품 정보, 고객투자성향 데이터입니다.
+첨부 문서를 기반으로 '특정 섹터'를 도출하고 주요 트렌드를 분석합니다.
+이 과정에서 핵심 키워드, 주요 이슈, 섹터 전망, 해당 섹터의 기회와 위협 요소를 요약해서 알려주세요.
+#한국어로 답변하세요.</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="첨부한 파일은 고배당 ETF의 최신 상품 정보, 고객투자성향 데이터입니다. 이 정보를 토대로 고배당 미국 ETF 시장 트렌드를 분석하고 고객의 투자 성향(공격형, 중립형, 보수형)에 맞는 맞춤형 제안 시나리오를 작성해 주세요. #한국어로 답변하세요.">
+                                        data-copy-text="첨부한 파일은 고배당 ETF의 최신 상품 정보, 고객투자성향 데이터입니다.
+첨부 문서를 기반으로 '특정 섹터'를 도출하고 주요 트렌드를 분석합니다.
+이 과정에서 핵심 키워드, 주요 이슈, 섹터 전망, 해당 섹터의 기회와 위협 요소를 요약해서 알려주세요.
+#한국어로 답변하세요.">
                                     <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                     복사하기
                                 </button>
@@ -368,27 +429,28 @@ const slides = [
                         <div class="flex items-stretch">
                             <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
                             <div class="flex-grow">
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">각 시나리오에서 있을 수 있는 예상 질문을 5개씩 만들어주세요.</p>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">분석한 '특정 섹터'의 향후 1년간 예상되는 트렌드를 외부 데이터를 참고하여 예측하세요.
+첨부한 문서에서 언급된 주요 이슈들의 실제 반영 가능성 및 그 외의 인사이트 내용을 더해주세요.</p>
                             </div>
                             <div class="flex-shrink-0 ml-4 h-full">
                                 <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="각 시나리오에서 있을 수 있는 예상 질문을 5개씩 만들어주세요.">
-                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                복사하기
-                            </button>
+                                        data-copy-text="분석한 '특정 섹터'의 향후 1년간 예상되는 트렌드를 외부 데이터를 참고하여 예측하세요.
+첨부한 문서에서 언급된 주요 이슈들의 실제 반영 가능성 및 그 외의 인사이트 내용을 더해주세요.">
+                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                    복사하기
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div class="flex items-stretch">
                         <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">3</div>
                         <div class="flex-grow">
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">각 투자 성향별 고객의 규모와 자산규모를 표로 정리해주세요. 자산규모는 천의 자리마다 쉼표로 나눠주세요. 다음과 같이 표를 구성하세요.</p>
-                            <pre class="bg-gray-100 p-2 rounded-md"><code>투자성향|고객수|자산규모|평균자산규모</code></pre>
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">각 시나리오에서 있을 수 있는 예상 질문을 5개씩 만들어주세요.</p>
                         </div>
                         <div class="flex-shrink-0 ml-4 h-full">
                             <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="각 투자 성향별 고객의 규모와 자산규모를 표로 정리해주세요. 자산규모는 천의 자리마다 쉼표로 나눠주세요. 다음과 같이 표를 구성하세요.
-투자성향|고객수|자산규모|평균자산규모
-                               <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                    data-copy-text="각 시나리오에서 있을 수 있는 예상 질문을 5개씩 만들어주세요.">
+                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
                                 복사하기
                             </button>
                         </div>
@@ -923,4 +985,4 @@ document.getElementById('toggleTOC').addEventListener('click', () => {
     toggleIcon.style.fontSize = '1.5rem'; // 토글 아이콘 크기 증가
 });
 
-// ... (기존 코드 유지)
+// ... (나머지 코드 유지)
