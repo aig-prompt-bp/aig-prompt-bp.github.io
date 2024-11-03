@@ -250,7 +250,67 @@ const slides = [
 </div>
     `,
 
-
+    
+`
+<div class="bg-blue-600 flex flex-col h-screen">
+    <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">보고서 작성 - 데이터 분석(고객판매데이터)</h2>
+    <div class="flex-grow overflow-auto">
+        <div class="space-y-6 px-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="space-y-6">
+                    <div class="flex items-stretch">
+                        <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
+                        <div class="flex-grow">
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">이 파일을 읽고 EDA 분석을 진행하세요.<br>결과는 한글로 작성하세요.</p>
+                        </div>
+                        <div class="flex-shrink-0 ml-4 h-full">
+                            <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                    data-copy-text="이 파일을 읽고 EDA 분석을 진행하세요.
+결과는 한글로 작성하세요.">
+                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                복사하기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-stretch">
+                        <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
+                        <div class="flex-grow">
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">매입원가, 평가금액 열의 값을 바탕으로 수익률을 계산후, '수익률' 열을 추가하고 엑셀파일로 저장하세요.</p>
+                        </div>
+                        <div class="flex-shrink-0 ml-4 h-full">
+                            <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                    data-copy-text="매입원가, 평가금액 열의 값을 바탕으로 수익률을 계산후, '수익률' 열을 추가하고 엑셀파일로 저장하세요.">
+                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                복사하기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-stretch">
+                        <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">3</div>
+                        <div class="flex-grow">
+                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">전처리한 데이터를 사용하여 시각화 차트를 제작하세요.<br>데이터 분석 결과를 효과적으로 전달할 수 있는 적절한 차트 유형을 선택하고, 각 차트의 목적과 해석을 포함한 한글 보고서를 작성하세요.<br>(차트의 모든 텍스트는 영문으로 작성)</p>
+                        </div>
+                        <div class="flex-shrink-0 ml-4 h-full">
+                            <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                    data-copy-text="전처리한 데이터를 사용하여 시각화 차트를 제작하세요.
+데이터 분석 결과를 효과적으로 전달할 수 있는 적절한 차트 유형을 선택하고, 각 차트의 목적과 해석을 포함한 한글 보고서를 작성하세요.
+(차트의 모든 텍스트는 영문으로 작성)">
+                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                복사하기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-6 text-base">
+                    <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">다음 파일을 첨부하세요:<br>
+                    실습파일 폴더 > 8.고객성향별 상품 매칭 > Updated_고객투자성향및보유상품.xlsx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`
+,
     `
 <div class="bg-blue-600 flex flex-col h-screen">
     <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">챗GPT를 이용한 고객 분류 및 페인포인트 분석</h2>
@@ -387,6 +447,74 @@ const slides = [
         </div>
     </div>
     `,
+    `
+    <div class="bg-blue-600 flex flex-col h-screen">
+        <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">GPTs의 이해 및 실무 챗봇 제작</h2>
+        <div class="flex-grow overflow-auto">
+            <div class="space-y-6 px-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="space-y-6">
+                        <div class="flex items-stretch">
+                            <div class="flex-grow">
+                                <h3 class="text-2xl font-bold mb-4">Role</h3>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">당신은 기업 분석 전문가입니다.<br>당신은 기업의 재무 정보와 뉴스를 분석하여 기업에 대한 정보를 일목요연하게 정리합니다.</p>
+                                
+                                <h3 class="text-2xl font-bold mb-4 mt-6">Objective</h3>
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용자가 제시한 기업명에 대한 분석 보고서를 아래의 형식으로 작성해주세요.<br>가독성이 좋은 글머리를 이용하고 구성 요소별 다른 폰트 크기를 적용해 일목요연하게 작성해 주세요.</p>
+                                
+                                <h4 class="text-xl font-bold mb-2">1. 회사 개요</h4>
+                                <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
+                                    <li>사업 포트폴리오에 대한 상세한 설명</li>
+                                    <li>최근 1년 내 회사 동향 (주요 사건, 신제품 출시 등)</li>
+                                </ul>
+                                
+                                <h4 class="text-xl font-bold mb-2 mt-4">2. 산업 분석</h4>
+                                <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
+                                    <li>시장 환경</li>
+                                    <li>주요 경쟁사 및 시장 위치</li>
+                                    <li>산업 동향 및 전망</li>
+                                </ul>
+                                
+                                <h4 class="text-xl font-bold mb-2 mt-4">3. 재무 분석</h4>
+                                <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
+                                    <li>재무 상태</li>
+                                    <li>실적</li>
+                                </ul>
+                            </div>
+                            <div class="flex-shrink-0 ml-4 h-full">
+                                <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                        data-copy-text="# Role
+당신은 기업 분석 전문가입니다. 
+당신은 기업의 재무 정보와 뉴스를 분석하여 기업에 대한 정보를 일목요연하게 정리합니다.
+
+# Objective
+사용자가 제시한 기업명에 대한 분석 보고서를 아래의 형식으로 작성해주세요.
+가독성이 좋은 글머리를 이용하고 구성 요소별 다른 폰트 크기를 적용해 일목요연하게 작성해 주세요.
+
+1. 회사 개요
+- 사업 포트폴리오에 대한 상세한 설명
+- 최근 1년 내 회사 동향 (주요 사건, 신제품 출시 등)
+
+2. 산업 분석
+- 시장 환경
+- 주요 경쟁사 및 시장 위치
+- 산업 동향 및 전망
+
+3. 재무 분석
+- 재무 상태
+- 실적">
+                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                    복사하기
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        `,
+
     `
     <div class="bg-blue-600 flex flex-col h-screen">
         <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">퍼플렉시티를 이용한 검색</h2>
@@ -609,73 +737,6 @@ const slides = [
     </div>
 </div>
     `,
-    `
-    <div class="bg-blue-600 flex flex-col h-screen">
-        <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">GPTs의 이해 및 실무 챗봇 제작</h2>
-        <div class="flex-grow overflow-auto">
-            <div class="space-y-6 px-8">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <div class="space-y-6">
-                        <div class="flex items-stretch">
-                            <div class="flex-grow">
-                                <h3 class="text-2xl font-bold mb-4">Role</h3>
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">당신은 기업 분석 전문가입니다.<br>당신은 기업의 재무 정보와 뉴스를 분석하여 기업에 대한 정보를 일목요연하게 정리합니다.</p>
-                                
-                                <h3 class="text-2xl font-bold mb-4 mt-6">Objective</h3>
-                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용자가 제시한 기업명에 대한 분석 보고서를 아래의 형식으로 작성해주세요.<br>가독성이 좋은 글머리를 이용하고 구성 요소별 다른 폰트 크기를 적용해 일목요연하게 작성해 주세요.</p>
-                                
-                                <h4 class="text-xl font-bold mb-2">1. 회사 개요</h4>
-                                <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
-                                    <li>사업 포트폴리오에 대한 상세한 설명</li>
-                                    <li>최근 1년 내 회사 동향 (주요 사건, 신제품 출시 등)</li>
-                                </ul>
-                                
-                                <h4 class="text-xl font-bold mb-2 mt-4">2. 산업 분석</h4>
-                                <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
-                                    <li>시장 환경</li>
-                                    <li>주요 경쟁사 및 시장 위치</li>
-                                    <li>산업 동향 및 전망</li>
-                                </ul>
-                                
-                                <h4 class="text-xl font-bold mb-2 mt-4">3. 재무 분석</h4>
-                                <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
-                                    <li>재무 상태</li>
-                                    <li>실적</li>
-                                </ul>
-                            </div>
-                            <div class="flex-shrink-0 ml-4 h-full">
-                                <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                        data-copy-text="# Role
-당신은 기업 분석 전문가입니다. 
-당신은 기업의 재무 정보와 뉴스를 분석하여 기업에 대한 정보를 일목요연하게 정리합니다.
-
-# Objective
-사용자가 제시한 기업명에 대한 분석 보고서를 아래의 형식으로 작성해주세요.
-가독성이 좋은 글머리를 이용하고 구성 요소별 다른 폰트 크기를 적용해 일목요연하게 작성해 주세요.
-
-1. 회사 개요
-- 사업 포트폴리오에 대한 상세한 설명
-- 최근 1년 내 회사 동향 (주요 사건, 신제품 출시 등)
-
-2. 산업 분석
-- 시장 환경
-- 주요 경쟁사 및 시장 위치
-- 산업 동향 및 전망
-
-3. 재무 분석
-- 재무 상태
-- 실적">
-                                    <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                    복사하기
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        `,
         `
         <div class="bg-blue-600 flex flex-col h-screen">
             <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">이디오그램과 Canva로 이미지 생성</h2>
