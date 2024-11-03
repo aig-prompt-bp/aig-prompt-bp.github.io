@@ -510,6 +510,208 @@ const slides = [
             </div>
         </div>
             `,
+            `<div class="bg-blue-600 flex flex-col h-screen">
+    <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">사내 공지문 GPTs 입력 내용 선택</h2>
+    <div class="flex-grow overflow-auto">
+        <div class="grid grid-cols-2 gap-6 px-8">
+            <!-- 1번 항목 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-stretch h-full">
+                    <div class="flex-grow">
+                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">1. 2024 하반기 Global Insight 특강 시리즈<br><br>
+                        * 대상: 전 임직원<br>
+                        * 일정: 매월 마지막 주 수요일 16:00-17:30<br>
+                        * 주요내용:<br>
+                            * 글로벌 금융시장 트렌드 분석<br>
+                            * 해외 유수 금융사 전문가 실시간 화상 강연<br>
+                            * Q&A 세션 및 네트워킹<br>
+                        * 신청방법: 사내 포털 'NH러닝센터' 접수<br>
+                        * 참고사항: 영어 동시통역 제공, 온/오프라인 하이브리드 진행</p>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <button class="copy-button px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full"
+                                data-copy-text="1. 2024 하반기 Global Insight 특강 시리즈
+
+* 대상: 전 임직원
+* 일정: 매월 마지막 주 수요일 16:00-17:30
+* 주요내용: 
+    * 글로벌 금융시장 트렌드 분석
+    * 해외 유수 금융사 전문가 실시간 화상 강연
+    * Q&A 세션 및 네트워킹
+* 신청방법: 사내 포털 'NH러닝센터' 접수
+* 참고사항: 영어 동시통역 제공, 온/오프라인 하이브리드 진행">
+                            <svg class="h-6 w-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            복사
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2번 항목 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-stretch h-full">
+                    <div class="flex-grow">
+                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">2. NH 디지털 혁신 아이디어 공모전<br><br>
+                        * 대상: 전체 부서 및 지점<br>
+                        * 일정: 접수기간 11월 1일 ~ 11월 30일<br>
+                        * 포상:<br>
+                            * 대상(1팀): 상금 500만원, 사장상<br>
+                            * 최우수상(2팀): 상금 300만원, 부사장상<br>
+                            * 우수상(3팀): 상금 100만원<br>
+                        * 제출방법: 부서장 승인 후 혁신기획팀 이메일 접수<br>
+                        * 주의사항: 실현 가능한 실무 적용 방안 필수 포함</p>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <button class="copy-button px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full"
+                                data-copy-text="2. NH 디지털 혁신 아이디어 공모전
+
+* 대상: 전체 부서 및 지점
+* 일정: 접수기간 11월 1일 ~ 11월 30일
+* 포상: 
+    * 대상(1팀): 상금 500만원, 사장상
+    * 최우수상(2팀): 상금 300만원, 부사장상
+    * 우수상(3팀): 상금 100만원
+* 제출방법: 부서장 승인 후 혁신기획팀 이메일 접수
+* 주의사항: 실현 가능한 실무 적용 방안 필수 포함">
+                            <svg class="h-6 w-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            복사
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3번 항목 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-stretch h-full">
+                    <div class="flex-grow">
+                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">3. 2024 NH 멘토링 프로그램<br><br>
+                        대상: 입사 3년 미만 직원(멘티), 차장급 이상(멘토)<br>
+                        일정: 12월 ~ 익년 5월(6개월)<br>
+                        지원사항:<br>
+                        활동비 월 30만원<br>
+                        우수 멘토링 팀 포상<br>
+                        멘토 승진가점 부여<br>
+                        신청방법: 인사부 멘토링 담당자 이메일<br>
+                        주의사항: 월 1회 이상 대면 미팅 필수</p>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <button class="copy-button px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full"
+                                data-copy-text="3. 2024 NH 멘토링 프로그램
+
+대상: 입사 3년 미만 직원(멘티), 차장급 이상(멘토)
+일정: 12월 ~ 익년 5월(6개월)
+지원사항: 
+활동비 월 30만원
+우수 멘토링 팀 포상
+멘토 승진가점 부여
+신청방법: 인사부 멘토링 담당자 이메일
+주의사항: 월 1회 이상 대면 미팅 필수">
+                            <svg class="h-6 w-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            복사
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4번 항목 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-stretch h-full">
+                    <div class="flex-grow">
+                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">4. ESG 실천 캠페인 'Green NH'<br><br>
+                        대상: 전 부서 및 영업점<br>
+                        일정: 연중 상시<br>
+                        주요활동:<br>
+                        페이퍼리스 실천<br>
+                        에너지 절약<br>
+                        친환경 출퇴근 인증<br>
+                        참여방법: 모바일 앱 'NH eco' 활용<br>
+                        인센티브: 우수부서 분기별 포상, 개인 마일리지 적립</p>
+                    </div>
+                    <div class="flex-shrink-0 ml-4">
+                        <button class="copy-button px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full"
+                                data-copy-text="4. ESG 실천 캠페인 'Green NH'
+
+대상: 전 부서 및 영업점
+일정: 연중 상시
+주요활동: 
+페이퍼리스 실천
+에너지 절약 
+친환경 출퇴근 인증
+참여방법: 모바일 앱 'NH eco' 활용
+인센티브: 우수부서 분기별 포상, 개인 마일리지 적립">
+                            <svg class="h-6 w-6 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            복사
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`,
+            `<div class="bg-blue-600 flex flex-col h-screen">
+            <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">템플릿 기반 이메일 생성 자동화 GPTs 지침</h2>
+            <div class="flex-grow overflow-auto">
+                <div class="space-y-6 px-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="space-y-6">
+                            <div class="flex items-stretch">
+                                <div class="flex-grow">
+                                    <h3 class="text-2xl font-bold mb-4">Role</h3>
+                                    <p class="mb-2 text-lg" style="font-size: 1.25rem;">당신은 자사 커뮤니케이션 담당자입니다.<br>제공한 이메일 템플릿과 데이터를 활용하여 기업명 또는 부서명에 맞는 맞춤형 이메일을 작성합니다.</p>
+                                    
+                                    <h3 class="text-2xl font-bold mb-4 mt-6">Objective</h3>
+                                    <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용자가 기업명 또는 부서명을 입력하면, 해당 기업 또는 부서의 정보를 바탕으로 이메일을 작성해 주세요.<br>이메일에는 맞춤 정보와 자사 담당자 메일주소가 포함되어야 합니다.</p>
+                                    
+                                    <h3 class="text-2xl font-bold mb-4 mt-6">Data Sources</h3>
+                                    <p class="mb-2 text-lg" style="font-size: 1.25rem;">이메일 템플릿: 3. 이메일_ 발송 메일 내용 Sample.docx<br>데이터 파일: 3. 이메일_ 발송내용 Sample.xlsx</p>
+        
+                                    <h3 class="text-2xl font-bold mb-4 mt-6">Instructions</h3>
+                                    <p class="mb-2 text-lg" style="font-size: 1.25rem;">-데이터 조회<br>--입력한 기업명 또는 부서명을 3. 이메일_ 발송내용 Sample.xlsx 파일에서 검색합니다. 모든 시트를 읽고 답변하세요<br>- 템플릿 선택<br>--사용자 입력값이 기업명인 경우: [Case 1] 템플릿 사용<br>--사용자 입력값이 부서명인 경우: [Case 2] 템플릿 사용<br>- 정보 채우기<br>--템플릿의 변수 부분을 데이터 파일에서 해당하는 값으로 대체합니다.<br>---변수예시: 보수금액, 카테고리명, 구분, 담당자 메일주소<br>-이메일 작성<br>--정중하고 전문적인 어투로 이메일을 작성합니다.<br>--필요한 경우 첨부 파일명을 언급하세요<br>-검토<br>--모든 맞춤 정보와 자사 담당자 메일주소가 정확하게 포함되었는지 확인합니다.</p>
+                                </div>
+                                <div class="flex-shrink-0 ml-4 h-full">
+                                    <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                            data-copy-text="# Role
+        당신은 자사 커뮤니케이션 담당자입니다.
+        제공한 이메일 템플릿과 데이터를 활용하여 기업명 또는 부서명에 맞는 맞춤형 이메일을 작성합니다.
+        
+        # Objective
+        사용자가 기업명 또는 부서명을 입력하면, 해당 기업 또는 부서의 정보를 바탕으로 이메일을 작성해 주세요.
+        이메일에는 맞춤 정보와 자사 담당자 메일주소가 포함되어야 합니다.
+        
+        # Data Sources
+        이메일 템플릿: 3. 이메일_ 발송 메일 내용 Sample.docx
+        데이터 파일: 3. 이메일_ 발송내용 Sample.xlsx
+        
+        # Instructions
+        -데이터 조회
+        --입력한 기업명 또는 부서명을 3. 이메일_ 발송내용 Sample.xlsx 파일에서 검색합니다. 모든 시트를 읽고 답변하세요
+        - 템플릿 선택
+        --사용자 입력값이 기업명인 경우: [Case 1] 템플릿 사용
+        --사용자 입력값이 부서명인 경우: [Case 2] 템플릿 사용
+        - 정보 채우기
+        --템플릿의 변수 부분을 데이터 파일에서 해당하는 값으로 대체합니다.
+        ---변수예시: 보수금액, 카테고리명, 구분, 담당자 메일주소
+        -이메일 작성
+        --정중하고 전문적인 어투로 이메일을 작성합니다.
+        --필요한 경우 첨부 파일명을 언급하세요
+        -검토
+        --모든 맞춤 정보와 자사 담당자 메일주소가 정확하게 포함되었는지 확인합니다.">
+                                        <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                        복사하기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-base">
+                            <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">다음 파일을 첨부하세요:<br>
+                            실습파일 폴더 > 3. 이메일 > 3. 이메일_ 발송 메일 내용 Sample.docx<br>
+                            실습파일 폴더 > 3. 이메일 > 3. 이메일_ 발송내용 Sample.xlsx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`,
+        
             
     `
     <div class="bg-blue-600 flex flex-col h-screen">
@@ -832,7 +1034,7 @@ function loadSlide(slideNumber) {
         document.getElementById('slide').innerHTML = `
             <div class="flex items-center justify-center h-screen">
                 <p style="font-size: 1.5rem;">Error: Slide ${slideNumber} not found</p>
-            </div>
+                                    </div>
         `;
     }
 }
