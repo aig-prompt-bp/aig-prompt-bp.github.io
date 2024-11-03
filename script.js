@@ -311,6 +311,39 @@ const slides = [
 </div>
 `
 ,
+
+`<div class="bg-blue-600 flex flex-col h-screen">
+<h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">보고서 작성 - PPT 자동생성(텍스트, 이미지)</h2>
+<div class="flex-grow overflow-auto">
+    <div class="space-y-6 px-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="space-y-6">
+                <div class="flex items-stretch">
+                    <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
+                    <div class="flex-grow">
+                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">위 보고서를 바탕으로 8장의 슬라이드를 만들려고 합니다.<br>아래의 형식으로 슬라이드 아우트라인을 만드세요<br>각 내용을 언급할때 문서의 어느부분을 근거로 했는지 언급하세요.<br><br>#형식<br>* 1페이지 : 제목<br>* 2-6페이지 : 데이터를 통해 얻은 고객에 대한 인사이트<br>* 7페이지 : 결론<br>* 8페이지 : 마치는 말</p>
+                    </div>
+                    <div class="flex-shrink-0 ml-4 h-full">
+                        <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                data-copy-text="위 보고서를 바탕으로 8장의 슬라이드를 만들려고 합니다.
+아래의 형식으로 슬라이드 아우트라인을 만드세요
+각 내용을 언급할때 문서의 어느부분을 근거로 했는지 언급하세요.
+
+#형식
+* 1페이지 : 제목
+* 2-6페이지 : 데이터를 통해 얻은 고객에 대한 인사이트 
+* 7페이지 : 결론
+* 8페이지 : 마치는 말">
+                            <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                            복사하기
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>`,
     `
 <div class="bg-blue-600 flex flex-col h-screen">
     <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">챗GPT를 이용한 고객 분류 및 페인포인트 분석</h2>
