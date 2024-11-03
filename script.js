@@ -473,64 +473,44 @@ const slides = [
                                 <div class="flex items-stretch">
                                     <div class="flex-grow">
                                         <h3 class="text-2xl font-bold mb-4">Role</h3>
-                                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">당신은 기업 분석 전문가입니다.<br>당신은 기업의 재무 정보와 뉴스를 분석하여 기업에 대한 정보를 일목요연하게 정리합니다.</p>
+                                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">당신은 자사 커뮤니케이션 담당자입니다.<br><br></p>
                                         
                                         <h3 class="text-2xl font-bold mb-4 mt-6">Objective</h3>
-                                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용자가 제시한 기업명에 대한 분석 보고서를 아래의 형식으로 작성해주세요.<br>가독성이 좋은 글머리를 이용하고 구성 요소별 다른 폰트 크기를 적용해 일목요연하게 작성해 주세요.</p>
+                                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">사용자가 공지내용을 Text로 정보를 입력하면 미리 제공한 예시 파일을 기반으로 사용자가 전달하고자 하는 정보를 효과적으로 전달하는 공지문을 작성하세요.<br><br>정보가 명확하게 전달될 수 있도록 핵심 메시지를 강조하세요.</p>
                                         
-                                        <h4 class="text-xl font-bold mb-2">1. 회사 개요</h4>
-                                        <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
-                                            <li>사업 포트폴리오에 대한 상세한 설명</li>
-                                            <li>최근 1년 내 회사 동향 (주요 사건, 신제품 출시 등)</li>
-                                        </ul>
-                                        
-                                        <h4 class="text-xl font-bold mb-2 mt-4">2. 산업 분석</h4>
-                                        <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
-                                            <li>시장 환경</li>
-                                            <li>주요 경쟁사 및 시장 위치</li>
-                                            <li>산업 동향 및 전망</li>
-                                        </ul>
-                                        
-                                        <h4 class="text-xl font-bold mb-2 mt-4">3. 재무 분석</h4>
-                                        <ul class="list-disc list-inside space-y-2 text-lg" style="font-size: 1.25rem;">
-                                            <li>재무 상태</li>
-                                            <li>실적</li>
-                                        </ul>
+                                        <h3 class="text-2xl font-bold mb-4 mt-6">Task</h3>
+                                        <p class="mb-2 text-lg" style="font-size: 1.25rem;">[1] 적절한 예시 공지문을 스스로 선택하고 사용자에게 어떤 예시공지문을 참고할 것인지 구체적으로 출력하세요<br><br>공지문을 작성할 상황과 정보에 가장 적합한 스타일(공식적, 친근한, 간결한 등)을 기반으로 선택해 주세요.<br><br>[2] 선택한 예시 공지문의 스타일을 참고하여 유사한 형식과 톤을 유지해 주세요. 예시 공지문에서 사용한 구조, 언어, 톤을 반영하여 통일성을 유지하세요.</p>
                                     </div>
                                     <div class="flex-shrink-0 ml-4 h-full">
                                         <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
                                                 data-copy-text="# Role
-        당신은 기업 분석 전문가입니다. 
-        당신은 기업의 재무 정보와 뉴스를 분석하여 기업에 대한 정보를 일목요연하게 정리합니다.
-        
-        # Objective
-        사용자가 제시한 기업명에 대한 분석 보고서를 아래의 형식으로 작성해주세요.
-        가독성이 좋은 글머리를 이용하고 구성 요소별 다른 폰트 크기를 적용해 일목요연하게 작성해 주세요.
-        
-        1. 회사 개요
-        - 사업 포트폴리오에 대한 상세한 설명
-        - 최근 1년 내 회사 동향 (주요 사건, 신제품 출시 등)
-        
-        2. 산업 분석
-        - 시장 환경
-        - 주요 경쟁사 및 시장 위치
-        - 산업 동향 및 전망
-        
-        3. 재무 분석
-        - 재무 상태
-        - 실적">
-                                            <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                            복사하기
-                                        </button>
-                                    </div>
+당신은 자사 커뮤니케이션 담당자입니다.
+
+# Objective
+사용자가 공지내용을 Text로 정보를 입력하면 미리 제공한 예시 파일을 기반으로 사용자가 전달하고자 하는 정보를 효과적으로 전달하는 공지문을 작성하세요. 
+정보가 명확하게 전달될 수 있도록 핵심 메시지를 강조하세요.
+
+# Task
+[1] 적절한 예시 공지문을 스스로 선택하고 사용자에게 어떤 예시공지문을 참고할 것인지 구체적으로 출력하세요
+공지문을 작성할 상황과 정보에 가장 적합한 스타일(공식적, 친근한, 간결한 등)을 기반으로 선택해 주세요.
+[2] 선택한 예시 공지문의 스타일을 참고하여 유사한 형식과 톤을 유지해 주세요. 예시 공지문에서 사용한 구조, 언어, 톤을 반영하여 통일성을 유지하세요.">
+                                        <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                        복사하기
+                                    </button>
                                 </div>
                             </div>
+                        </div>
+                        <div class="mt-6 text-base">
+                            <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">다음 파일을 첨부하세요:<br>
+                            실습파일 폴더 > 4. 공지문 > 4. 공지문 작성_자격시험 취득과정 수강신청.ppt<br>
+                            실습파일 폴더 > 4. 공지문 > 4. 공지문 작성_Python을 활용한 데이터 분석 과정.pptx</p>
                         </div>
                     </div>
                 </div>
             </div>
-                `,
-    
+        </div>
+            `,
+            
     `
     <div class="bg-blue-600 flex flex-col h-screen">
         <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">퍼플렉시티를 이용한 검색</h2>
