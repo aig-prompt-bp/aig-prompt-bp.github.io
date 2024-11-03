@@ -192,67 +192,6 @@ const slides = [
 </div>
     `, 
     `
-<div class="bg-blue-600 flex flex-col h-screen">
-    <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">이디오그램과 Canva로 이미지 생성</h2>
-    <div class="flex-grow overflow-auto">
-        <div class="space-y-6 px-8">
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <div class="space-y-6">
-                    <div class="flex items-stretch">
-                        <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
-                        <div class="flex-grow">
-                            <div class="flex items-center mb-2">
-                                <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center mr-2">
-                                    <img src="./images/chatgpt.png" alt="ChatGPT" class="w-6 h-6">
-                                </div>
-                                <span class="text-xl font-bold">ChatGPT</span>
-                            </div>
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부된 파일은 NH투자증권의 로고 이미지입니다.<br>1. 이미지를 분석하여 브랜드 컬러를 추출하세요.<br>2. 추출된 브랜드 컬러를 바탕으로 '투자상품 고객 설명회 안내장' 배경 이미지 생성 프롬프트를 작성하세요.<br><br>다음의 지침을 따르세요.<br>- 프롬프트는 영어로 작성해 주세요.<br>- Dall-E 3을 사용한 이미지 출력은 필요하지 않습니다.</p>
-                        </div>
-                        <div class="flex-shrink-0 ml-4 h-full">
-                            <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="첨부된 파일은 NH투자증권의 로고 이미지입니다.
-1. 이미지를 분석하여 브랜드 컬러를 추출하세요.
-2. 추출된 브랜드 컬러를 바탕으로 '투자상품 고객 설명회 안내장' 배경 이미지 생성 프롬프트를 작성하세요.
-
-다음의 지침을 따르세요.
-- 프롬프트는 영어로 작성해 주세요.
-- Dall-E 3을 사용한 이미지 출력은 필요하지 않습니다.">
-                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                복사하기
-                            </button>
-                        </div>
-                    </div>
-                    <div class="flex items-stretch">
-                        <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
-                        <div class="flex-grow">
-                            <div class="flex items-center mb-2">
-                                <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center mr-2">
-                                    <img src="./images/ideogram.png" alt="Ideogram" class="w-6 h-6">
-                                </div>
-                                <span class="text-xl font-bold">Ideogram</span>
-                            </div>
-                            <p class="mb-2 text-lg text-gray-500" style="font-size: 1.25rem;">(Ideogram에 접속하여 [Step1]에서 생성된 프롬프트를 사용하세요.) 또는 아래의 프롬프트를 사용하세요.</p>
-                            <p class="mb-2 text-lg" style="font-size: 1.25rem;">Create a professional and inviting background image for a customer seminar invitation on investment products. The background should feature the colors yellow (#FFD100) and blue (#0072CE) prominently. Use smooth gradients and abstract shapes to convey trust and stability. The design should be modern and clean, with ample white space for text overlay. Incorporate subtle financial or investment-themed icons, like graphs, charts, or growth symbols, in a way that does not distract from the main content. The image should be suitable for both digital and print formats.</p>
-                        </div>
-                        <div class="flex-shrink-0 ml-4 h-full">
-                            <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
-                                    data-copy-text="Create a professional and inviting background image for a customer seminar invitation on investment products. The background should feature the colors yellow (#FFD100) and blue (#0072CE) prominently. Use smooth gradients and abstract shapes to convey trust and stability. The design should be modern and clean, with ample white space for text overlay. Incorporate subtle financial or investment-themed icons, like graphs, charts, or growth symbols, in a way that does not distract from the main content. The image should be suitable for both digital and print formats.">
-                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
-                                복사하기
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-6 text-base">
-                    <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">다음 파일을 첨부하세요:<br>실습파일 폴더 > 9. NH투자증권 로고 > NH투자증권 logo.png</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    `,
-    `
     <div class="bg-blue-600 flex flex-col h-screen">
         <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">GPT로 인터넷 정보에 기반한 회사 정보 요약 및 시나리오 작성</h2>
         <div class="flex-grow overflow-auto">
@@ -608,7 +547,68 @@ const slides = [
             </div>
         </div>
     </div>
+        `,
         `
+        <div class="bg-blue-600 flex flex-col h-screen">
+            <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">이디오그램과 Canva로 이미지 생성</h2>
+            <div class="flex-grow overflow-auto">
+                <div class="space-y-6 px-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="space-y-6">
+                            <div class="flex items-stretch">
+                                <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
+                                <div class="flex-grow">
+                                    <div class="flex items-center mb-2">
+                                        <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center mr-2">
+                                            <img src="./images/chatgpt.png" alt="ChatGPT" class="w-6 h-6">
+                                        </div>
+                                        <span class="text-xl font-bold">ChatGPT</span>
+                                    </div>
+                                    <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부된 파일은 NH투자증권의 로고 이미지입니다.<br>1. 이미지를 분석하여 브랜드 컬러를 추출하세요.<br>2. 추출된 브랜드 컬러를 바탕으로 '투자상품 고객 설명회 안내장' 배경 이미지 생성 프롬프트를 작성하세요.<br><br>다음의 지침을 따르세요.<br>- 프롬프트는 영어로 작성해 주세요.<br>- Dall-E 3을 사용한 이미지 출력은 필요하지 않습니다.</p>
+                                </div>
+                                <div class="flex-shrink-0 ml-4 h-full">
+                                    <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                            data-copy-text="첨부된 파일은 NH투자증권의 로고 이미지입니다.
+        1. 이미지를 분석하여 브랜드 컬러를 추출하세요.
+        2. 추출된 브랜드 컬러를 바탕으로 '투자상품 고객 설명회 안내장' 배경 이미지 생성 프롬프트를 작성하세요.
+        
+        다음의 지침을 따르세요.
+        - 프롬프트는 영어로 작성해 주세요.
+        - Dall-E 3을 사용한 이미지 출력은 필요하지 않습니다.">
+                                        <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                        복사하기
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="flex items-stretch">
+                                <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">2</div>
+                                <div class="flex-grow">
+                                    <div class="flex items-center mb-2">
+                                        <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center mr-2">
+                                            <img src="./images/ideogram.png" alt="Ideogram" class="w-6 h-6">
+                                        </div>
+                                        <span class="text-xl font-bold">Ideogram</span>
+                                    </div>
+                                    <p class="mb-2 text-lg text-gray-500" style="font-size: 1.25rem;">(Ideogram에 접속하여 [Step1]에서 생성된 프롬프트를 사용하세요.) 또는 아래의 프롬프트를 사용하세요.</p>
+                                    <p class="mb-2 text-lg" style="font-size: 1.25rem;">Create a professional and inviting background image for a customer seminar invitation on investment products. The background should feature the colors yellow (#FFD100) and blue (#0072CE) prominently. Use smooth gradients and abstract shapes to convey trust and stability. The design should be modern and clean, with ample white space for text overlay. Incorporate subtle financial or investment-themed icons, like graphs, charts, or growth symbols, in a way that does not distract from the main content. The image should be suitable for both digital and print formats.</p>
+                                </div>
+                                <div class="flex-shrink-0 ml-4 h-full">
+                                    <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                            data-copy-text="Create a professional and inviting background image for a customer seminar invitation on investment products. The background should feature the colors yellow (#FFD100) and blue (#0072CE) prominently. Use smooth gradients and abstract shapes to convey trust and stability. The design should be modern and clean, with ample white space for text overlay. Incorporate subtle financial or investment-themed icons, like graphs, charts, or growth symbols, in a way that does not distract from the main content. The image should be suitable for both digital and print formats.">
+                                        <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                        복사하기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-base">
+                            <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">다음 파일을 첨부하세요:<br>실습파일 폴더 > 9. NH투자증권 로고 > NH투자증권 logo.png</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            `        
     ];
 
 // 슬라이드 제목 추출 함수
