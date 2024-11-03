@@ -6,7 +6,7 @@ const slides = [
     `
 <div class="bg-blue-600 flex flex-col h-screen">
     <div class="flex-grow flex flex-col items-center justify-center px-8">
-        <h2 class="text-4xl font-bold text-white mb-16 text-center" style="font-size: 2.5rem;"> NH증권 영업직무 AI 비즈니스솔루션 과정</h2>
+        <h2 class="text-4xl font-bold text-white mb-16 text-center" style="font-size: 2.5rem;"> NH증권 경영기획직무 AI 비즈니스솔루션 과정</h2>
         <div class="text-center mb-16">
             <h1 class="text-6xl font-bold text-white mb-8" style="font-size: 3rem;">실습 프롬프트</h1>
             <!-- 
@@ -81,6 +81,48 @@ const slides = [
     </div>
 </div>
     `,
+
+    `
+    <div class="bg-blue-600 flex flex-col h-screen">
+        <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">챗GPT를 이용한 회의록 작성 자동화</h2>
+        <div class="flex-grow overflow-auto">
+            <div class="space-y-6 px-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="space-y-6">
+                        <div class="flex items-stretch">
+                            <div class="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0 self-start text-xl" style="font-size: 1.5rem; width: 3rem; height: 3rem;">1</div>
+                            <div class="flex-grow">
+                                <p class="mb-2 text-lg" style="font-size: 1.25rem;">첨부한 파일은 회의의 녹취 내용을 텍스트로 변환한 데이터와 자사 회의록 포맷입니다.<br>이 데이터를 바탕으로 자사 포맷에 맞춰 회의록을 작성해 주세요.<br><br>#자사 회의록 포맷<br><br>1. 회의 일시 :<br>2. 참석자 :<br>3. 주요 의제 :<br>4. 결정사항 :<br>5. 추가 논의 사항:<br><br>위 포맷에 맞춰 회의 내용을 정리하고 Word 파일로 생성하세요.</p>
+                            </div>
+                            <div class="flex-shrink-0 ml-4 h-full">
+                                <button class="copy-button px-6 py-4 rounded bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:outline-none transition-colors duration-200 ease-in-out flex flex-col items-center justify-center h-full text-xl" style="font-size: 1.5rem; padding: 1rem 1.5rem;"
+                                        data-copy-text="첨부한 파일은 회의의 녹취 내용을 텍스트로 변환한 데이터와 자사 회의록 포맷입니다.
+이 데이터를 바탕으로 자사 포맷에 맞춰 회의록을 작성해 주세요.
+
+#자사 회의록 포맷
+
+1. 회의 일시 :
+2. 참석자 :
+3. 주요 의제 :
+4. 결정사항 : 
+5. 추가 논의 사항:
+
+위 포맷에 맞춰 회의 내용을 정리하고 Word 파일로 생성하세요.">
+                                <svg class="h-10 w-10 mb-2" style="width: 3rem; height: 3rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+                                복사하기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-6 text-base">
+                    <p class="bg-yellow-100 p-3 rounded-lg text-black" style="font-size: 1.25rem;">'클로바노트'를 사용하여 녹취한 음성파일을 TXT 파일로 변환한 첨부 파일을 이용합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    `,
+
     `
 <div class="bg-blue-600 flex flex-col h-screen">
     <h2 class="text-4xl font-bold text-white mb-4 px-8 pt-4 text-center mb-8 mt-4" style="font-size: 2.5rem;">챗GPT를 이용한 고객 분류 및 페인포인트 분석</h2>
